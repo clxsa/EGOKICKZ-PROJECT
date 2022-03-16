@@ -1,0 +1,20 @@
+
+@mixin swipe-color {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: $colorText;
+}
+.footinvert {
+    color: grey
+}
+
+&__title {
+    @extend .foost;
+    text-align: center;
+}
+
+$mapText:(text: black)
+@each $blue, $color in $mapRedes {
+    .#($red){
+        color: $color;
+    }
+}
