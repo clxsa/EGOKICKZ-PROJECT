@@ -16,5 +16,5 @@ $mapText:(text: black)
 @each $blue, $color in $mapRedes {
     .#($red){
         color: $color;
-    }
+        }
 }
